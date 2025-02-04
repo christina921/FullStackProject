@@ -1,0 +1,52 @@
+{
+  "code": 1,
+  "message": "Retrieved successfully",
+  "items": [
+    {
+      "id": "16",
+      "name": "Water",
+      "category": "6",
+      "quantity": 30,
+      "details": [
+        { "detail_name": "volume", "detail_value": "1.5l" },
+        { "detail_name": "pack size", "detail_value": "6" }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Orange juice changed",
+      "category": "6",
+      "details": [
+        { "detail_name": "volume", "detail_value": "250ml" },
+        { "detail_name": "pack size", "detail_value": "12" }
+      ]
+    },
+    {
+      "id": "268",
+      "name": "New Item",
+      "category": "27",
+      "quantity": 13,
+      "details": [
+        { "detail_name": "brand", "detail_value": "Trata" },
+        { "detail_name": "weight", "detail_value": "200g" }
+      ]
+    },
+    {
+      "id": "9999",
+      "name": "test item",
+      "category": "8888",
+      "quantity": 13,
+      "details": [
+        { "detail_name": "brand", "detail_value": "Trata" },
+        { "detail_name": "weight", "detail_value": "200g" }
+      ]
+    }
+  ],
+  "categories": [
+    { "id": "6", "category_name": "Beverages" },
+    { "id": "5", "category_name": "Food" },
+    { "id": "27", "category_name": "New Category" },
+    { "id": "8888", "category_name": "test category" }
+
+  ]
+}

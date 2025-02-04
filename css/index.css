@@ -1,0 +1,96 @@
+:root {
+  --text: #080707;
+  --background: #f9f5f5;
+  --primary: #c0584b;
+  --accent: #f45d4a;
+  --form-background: #f6eded;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  font-family: "Poppins";
+  height: 100dvh;
+
+  flex-direction: column;
+  gap: 30px;
+}
+
+a {
+  color: var(--primary);
+  font-weight: bold;
+  transition: all 0.1s;
+}
+a:hover {
+  color: var(--accent);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+
+  padding: 0.5em 1em;
+
+  background-color: var(--form-background);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.form-pair {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-title {
+  text-align: center;
+  font-weight: bolder;
+  color: var(--text);
+}
+
+.form-item {
+  margin: 0.5em 1em;
+  min-height: 30px;
+  border-radius: 10px;
+  border: 0;
+  outline-color: var(--accent);
+}
+
+.general-button {
+  height: 40px;
+  color: var(--background);
+  background-color: var(--primary);
+  cursor: pointer;
+
+  text-decoration: underline 0.1em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
+
+  border: 2px solid var(--form-background);
+}
+
+.general-button:hover {
+  text-decoration-color: rgba(255, 255, 255, 1);
+}
+
+.form-message {
+  font-size: smaller;
+  margin: 0.5em 3em;
+  text-align: right;
+  color: var(--text);
+}
+
+.form-alert {
+  font-size: small;
+  color: #ee2f2f;
+  text-align: center;
+  margin: 0;
+}
+
+#map {
+  height: 250px;
+  width: 100%;
+}
+
+

@@ -1,0 +1,145 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  font-family: "Poppins";
+
+  flex-direction: column;
+  gap: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+.login-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #1c2364b8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+label {
+  margin-top: 20px;
+}
+
+input[type="number"],
+input[list="items"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+
+  margin-top: 40px;
+}
+
+.board,
+.offers,
+.requests {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.announcement,
+.offer,
+.request {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.announcement:last-child,
+.offer:last-child,
+.request:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.board h1,
+.offers h1,
+.requests h1 {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.announcement h2,
+.offer h2,
+.request h2 {
+  margin-top: 0;
+}
+
+.announcement p,
+.offer p,
+.request h2 {
+  margin: 5px 0;
+}
+
+.board,
+.offers,
+.requests {
+  flex: 1;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  border: 2px solid #e0e0e0;
+  overflow: hidden;
+}
+
+.request {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.announcement {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.offer {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.horizontal button {
+  margin-top: 5px;
+}
